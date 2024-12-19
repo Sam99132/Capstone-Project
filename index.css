@@ -1,0 +1,128 @@
+html{
+    width: 100vw;
+}
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+
+h2, p{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    border-bottom: 1px solid black;
+    width: 93.5vw;
+}
+
+.header-left-text{
+    font-size: 28px;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 23px;
+}
+
+ul{
+    margin: 0;
+}
+li:hover{
+    text-decoration: underline;
+}
+
+main{
+    padding: 50px;
+    width: 93.5vw;
+}
+
+.main-heading-div{
+    text-align: center;
+    padding: 100px 150px 25px 150px;
+}
+
+.main-heading{
+    margin: 0;
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.main-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 48px;
+    margin: 48px 0;
+}
+
+.main-flex-img-div{
+    padding: 48px 0 0 0;
+}
+
+.main-flex-left-section{
+    flex: 1;
+}
+
+.main-flex-middle-section{
+    flex: 1;
+}
+
+.main-flex-right-section{
+    flex: 1;
+}
+
+.main-img{
+    border-radius: 56px;
+    padding-bottom: 50px;
+    width: 100%;
+    border-radius: 28px;
+}
+
+.flex-img{
+    min-width: 300px;
+    width: 100%;
+    border-radius: 16px;
+}
+
+.main-img-des-div{
+    height: 24px;
+    width: 100%;
+}
+
+.project-des, .project-name{
+    line-height: 20px;
+    font-family: "Archivo",sans-serif;
+    font-weight: 400;
+}
+
+.project-name{
+    font-size: 18px;
+}
+
+.project-des{
+    font-size: 15px;
+}
+
+.main-section{
+    text-align: center;
+    padding: 96px 190px;
+}
+
+.section-text{
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 52px;
+}
+
+.below-main{
+    text-align: right;
+    width: 646px;
+}
+
